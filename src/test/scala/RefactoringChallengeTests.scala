@@ -6,17 +6,6 @@ import org.scalatestplus.selenium.WebBrowser
 
 class RefactoringChallengeTests extends FeatureSpec with GivenWhenThen with Matchers with WebBrowser {
 
-  //    Welcome to the UI Test Refactoring Challenge
-  //    This challenge is based on the MoT automation week refactoring challenge.
-  //
-  //    For this challenge it's all about creating clean, readable and maintainable code. Below
-  //    are five tests that work (just about) but require cleaning up. Update this code base
-  //    so that it's easier to maintain, more readable, and has sensible ways of asserting
-  //    data.
-  //
-  //    Hint: You might want to research different approaches to improving UI automation such as
-  //    Page Object Models and implicit vs. explicit waits, as well as features that might make things
-  //    easier to maintain
   Feature("Challenge tests") {
 
     //  Test one: Check to see if you can log in with valid credentials
